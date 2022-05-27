@@ -64,7 +64,7 @@ export const AuthProvider = ({ children }) => {
     const verificaToken = useCallback( async() => {
 
         const token = localStorage.getItem('token');
-        // Si token no existe
+        // Si el token no existe
         if ( !token ) {
             setAuth({
                 uid: null,

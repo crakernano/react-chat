@@ -1,17 +1,14 @@
 import React from 'react';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Redirect,
-  } from 'react-router-dom';
+import { Redirect, Route, Switch } from 'react-router-dom';
 
-import { LoginPage } from "../pages/LoginPage";
-import { RegisterPage } from "../pages/RegisterPage";
+import { LoginPage } from '../pages/LoginPage';
+import { RegisterPage } from '../pages/RegisterPage';
 
-import '.../css/login-register.css';
+import '../css/login-register.css';
 
-export const AuthRouter = () =>{
-    return(
+export const AuthRouter = () => {
+    return (
+
         <div className="limiter">
 		    <div className="container-login100">
 			    <div className="wrap-login100 p-t-50 p-b-90">

@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { ChatPage } from './pages/ChatPage';
-
+import { ChatApp } from './ChatApp';
 ReactDOM.render(
 
-    <ChatPage />,
+    <ChatApp />,
 
   document.getElementById('root')
 );
